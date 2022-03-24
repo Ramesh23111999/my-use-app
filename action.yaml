@@ -1,0 +1,13 @@
+---
+Resource:
+Ec2Instance:
+  Type: AWS::EC2:INSTANCE
+  Properties:
+    Type: t2.micro
+    KeyName: new
+    AvailabilityZone: ap-south-1
+    ImageId: 
+    Role: 
+    SecurityGroup: 
+    Tag: 
+    
